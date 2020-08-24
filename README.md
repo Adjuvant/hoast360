@@ -14,7 +14,12 @@ Technical details are explained in an [AES eBrief](http://www.aes.org/e-lib/brow
 > nils.meyer-kahlen@aalto.fi
 >
 ----------
-### Manipulate the Field-Of-View (FOV)
+### Gaze Event system for triggering spatial markers - THIS FORK ONLY
+Based on [gaze-event](https://github.com/YoneChen/gaze-event), 
+editted the startup of the main HOSAT360 object and left some hooks to make gaze targets with basic behaviour. 
+Default example shows how to spawn some cubes, the spin when the looked at (based on camera position update, not continual raycasting).
+
+### Manipulate the Field-Of-View (FOV) - DISABLED IN THIS FORK
 HOAST360 provides two ways to manipulate the audio-visual FOV. Drag on the video canvas with your mouse to rotate the FOV. Use your mouse wheel to zoom in and out, visually as well as acoustically. HOAST360 directly outputs a binaural audio stream, expecting the listener to **_wear headphones_**!
 
 ### VR Ready
